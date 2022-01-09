@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar site e agora vou gerenciar meu repositorio!
 
-<a href="https://lucianononato.github.io/html-css/exercicio/ex001/index.html">Executa o exercicio 001
+<a href="https://lucianononato.github.io/html-css/exercicio/ex001/index.html">Executa o exercicio 001 no
