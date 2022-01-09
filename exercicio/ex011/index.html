@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diverentes ou simplesmente aumente ou diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio </h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/You're Not Wrong - roljui.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue carregar audio mp3 <a href="midia/You're Not Wrong - roljui.mp3">click aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>

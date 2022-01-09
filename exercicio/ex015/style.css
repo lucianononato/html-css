@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: floralwhite;
+}
+h2 {
+    color: gold;
+}
+p {
+    text-align: justify;
+}
